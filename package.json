@@ -1,0 +1,30 @@
+{
+  "name": "persons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sampino/FullstackOpen-part3.git"
+  },
+  "author": "Sampino",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sampino/FullstackOpen-part3/issues"
+  },
+  "homepage": "https://github.com/Sampino/FullstackOpen-part3#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@flydotio/dockerfile": "^0.4.10",
+    "nodemon": "^3.0.1"
+  }
+}
